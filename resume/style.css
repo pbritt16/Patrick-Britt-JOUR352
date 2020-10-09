@@ -6,6 +6,46 @@ BODY {
 
 h1 {
   color:#33485e;
+<<<<<<< HEAD
   text-decoration:uppercase;
   text-align:center;
+=======
+  text-transform:uppercase;
+  text-align:center;
+  font-size:3em;
+}
+
+strong {
+  color:#33485e;
+  text-transform:uppercase;
+  font-size:1.5em;
+}
+
+h2 {
+  font-size:1.5em;
+  text-transform:uppercase;
+  background-color:#33485e;
+  color:#ffffff;
+  font-weight:400;
+}
+
+h3 {
+  font-size:1.5em;
+  font-weight:600;
+}
+
+h4 {
+  font-size:1.5em;
+  font-weight400;
+}
+
+h5 {
+  font-weight:400;
+  font-size:1em;
+  text-transform:italicize;
+}
+
+ul {
+  font-size:1em;
+>>>>>>> 07a15ffd057a9e1382caa0ceb02d72568ca2295b
 }
