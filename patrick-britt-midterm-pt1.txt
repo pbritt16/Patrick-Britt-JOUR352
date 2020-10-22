@@ -1,0 +1,33 @@
+1. <a href="google.com">Google is the best search engine in the world.</a>
+
+2. The purpose of the div tag is to make a division of the code you are working on that you then group together and style with CSS elements.
+
+3. <DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+      <body>
+      </body>
+</html>
+
+4. The head area.
+
+5. The body area.
+
+6. <div class="graphicbox"></div>
+<div id="name"></div>
+
+7. <div id="apples" class="fruit"></div>
+
+8. .fruit {
+  color: #00000;
+}
+
+9. <img src"___">
+
+10. We use media queries so that the content we are creating can adapt to the size of the screen that the user is on (i.e. phone, tablet, computer).
+
+11. A serif is a decorative stroke on the end of a font, so serif means that the font has the decorative stroke, while sans-serif means that it is without that decorative aspect.
+
+12. #FFCC33
