@@ -1,90 +1,89 @@
-<!DOCTYPE HTML>
+
+<!doctype html>
+
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <title>Patrick Britt's Resume</title>
+  <title>HTML frame</title>
+  <meta name="description" content="Merrill College of Journalism, UMD">
+  <meta name="author" content="Patrick Britt">
 
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- My Local Stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Google Font Styles -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">"
 
 </head>
-
 <body>
-  <div id="container">
-  <!-- I built this myself! -->
 
-  <img src="pagetopresume.jpeg" width="840px">
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="menu">Contact</div>
-    <div class="menu"><a href="mailto:patrickbritt16@gmail.com">Patrickbritt16@gmail.com</a></div>
-    <div class="menu"><a href="https://www.linkedin.com/in/patrick-britt-468630186/">LinkedIn</a></div>
-    <div class="menu"><a href="https://twitter.com/PatrickBrittUMD">Twitter</a></div>
-    <div class="menu"><a href="https://github.com/pbritt16">Github</a></div>
-  </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- End NavBar -->
 
-  <div class="sectionheader">Experience</div>
 
-  <div class="jobtitle">Copywriting Intern</div>
+<div class="container">
+  <h1 id="headline">Headline Goes Here</h1>
 
-  <div class="organization">Compass Marketing</div>
+  <p id="byline">By Byline</p>
 
-  <div class="date">May 2020 - Present</div>
+  <h2 id="chapter">Chapter Headline</h2>
 
-  <div class="description">Creating SEO content for companies selling their products on Amazon, Target and other major retail marketplaces</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-  <div class="jobtitle">Copy Editor</div>
+<h3 id="image"><img src="nats-park.jpg" width="840px"></h3>
 
-  <div class="organization">Unwind Magazine</div>
+<h4 id="caption">Insert image, video or graphic above</h4>
 
-  <div class="date">September 2019 - May 2020</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-  <div class="description">Edited stories for AP style, grammar and readability, as well as fact checking each story that comes across my desk</div>
+<h5 id="footer"><img src="footer.jpg" width="1100px"></h5>
 
-  <div class="jobtitle">Intern/Contributing Writer</div>
 
-  <div class="organization">PressBoxOnline</div>
+</div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-  <div class="date">January 2019 - May 2019</div>
-
-  <div class="description">Wrote stories and transcribed interviews, as well as fact checked and edited other writer's stories</div>
-
-  <div class="jobtitle">Intern/Contributing Writer</div>
-
-  <div class="organization">Admirable Athlete</div>
-
-  <div class="date">September 2018 - December 2018</div>
-
-  <div class="description">Researched stories and wrote articles about athletes and their philanthropic endeavors</div>
-
-  <div class="jobtitle">Executive Board Member</div>
-
-  <div class="organization">Lambda Chi Alpha Epsilon Pi Chapter</div>
-
-  <div class="date">November 2019 - November 2020</div>
-
-  <div class="description">Oversaw entire fraternity and helped to make fraternity-wide decisions. Handled a budget of over $18,000 each semester</div>
-
-  <div class="jobtitle">Student Representative</div>
-
-  <div class="organization">University of Maryland Welcome Center</div>
-
-  <div class="date">September 2019 - March 2020</div>
-
-  <div class="description">Greeted prospective students and assisted them with their questions regarding the application process</div>
-
-<div id="degrees"></div>
-  <li>Bachelor of Arts, Journalism, University of Maryland, 2020</li>
-
-</ul>
-
-  <div class="sectionheader">Skills</div>
-
-<div id="do"></div>
-  <li>Critically gather data and assess audience analytics</li>
-  <li>Create online content for retail marketplaces with a focus on increasing web traffic through SEO</li>
-  <li>Content editing for AP style</li>
-
-</ul>
 </body>
-
 </html>
