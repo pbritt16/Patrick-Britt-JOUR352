@@ -1,0 +1,80 @@
+BODY {
+  font-family: 'Cormorant Garamond', serif;
+  color:#444;
+  font-weight:400;
+}
+
+#byline {
+  font-family: serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 35px;
+}
+
+h3 {
+  text-align: center;
+  font-family: serif, sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px
+}
+
+img {
+  object-fit: cover;
+}
+
+blockquote {
+  font-size: 35px;
+  font-style: italic;
+  font-family: serif;
+  color: red;
+}
+
+.captions {
+  text-align: center;
+  font-size: 13px;
+}
+
+.sidebar {
+  font-size: 12px;
+}
+
+.contributors {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.attribution {
+  font-size: 35px;
+  font-style: italic;
+  font-family: serif;
+  color: red;
+  text-indent: 5%;
+}
+
+.source {
+  font-size: 14px;
+}
+
+hr {
+  width: 1125px;
+  height: 1px;
+  background-color: black;
+}
+
+#topper {
+  width: 100%;
+  margin: 0;
+}
