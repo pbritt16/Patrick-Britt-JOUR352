@@ -1,0 +1,109 @@
+BODY {
+  font-family: 'Cormorant Garamond', serif;
+  color:#444;
+  font-weight:500;
+}
+
+.byline {
+  font-family: serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: serif, sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px
+}
+
+img {
+  object-fit: cover;
+}
+
+blockquote {
+  font-size: 35px;
+  font-style: italic;
+  font-family: serif;
+  color: red;
+}
+
+.captions {
+  text-align: center;
+  font-size: 14px;
+}
+
+.contributor {
+  font-style: italic;
+  font-size: 13px;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 20px;
+  font-style: italic;
+  font-family: serif;
+  color: black;
+  text-indent: 5%;
+}
+
+.source {
+  font-size: 14px;
+}
+
+hr {
+  width: 1125px;
+  height: 1px;
+  background-color: black;
+}
+
+#topper {
+  width: 100%;
+}
+.bg {
+  width: 100%;
+  z-index: 0;
+}
+
+.center {
+  margin: 0 auto;
+  swidth: 400px;
+}
+
+.video {
+  text-align: center;
+}
+
+.picture {
+  width: 100vh;
+  margin-left: 0;
+  margin-right: 100%;
+  padding: 0%;
+}
+
+.video {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 100%;
+  padding: 0%;
+}
+
+.center {
+  margin: 0 auto;
+  width: 400px;
+}
